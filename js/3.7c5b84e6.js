@@ -238,7 +238,7 @@
                         staticStyle: {
                             "font-size": "12px"
                         }
-                    }, [t._v("Data Analyst @ Uber"), a("br"), t._v("NIT Durgapur")]), a("div", {
+                    }, [t._v("Data Scientist @ Uber"), a("br"), t._v("NIT Durgapur")]), a("div", {
                         staticClass: "text-center full-width q-py-xs"
                     }, [a("vue-typer", {
                         staticClass: "text-center",
@@ -450,7 +450,7 @@
                             scrollPosition: 0,
                             leftDrawerOpen: !1,
                             menuClicked: !1,
-                            roles: ["Budding SDE", "Data Analyst", "JavaScript Ninja", "Python Lover", "Top Googler"],
+                            roles: ["Finance Freak", "Data Geek", "Python Ninja", "SQL Lover", "Top Googler"],
                             essentialLinks: [{
                                 title: "Home",
                                 caption: "Home Page",
