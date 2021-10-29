@@ -214,7 +214,7 @@
                     name: "PageIndex",
                     data: function() {
                         return {
-                            roles: ["Budding SDE", "Data Analyst", "JavaScript Ninja", "Python Lover", "Top Googler"]
+                            roles: ["Finance Freak", "Data Geek", "Python Ninja", "SQL Lover", "Top Googler"]
                         }
                     },
                     components: {
