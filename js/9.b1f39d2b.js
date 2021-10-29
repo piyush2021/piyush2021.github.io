@@ -26,6 +26,49 @@
                                     attrs: {
                                         avatar: ""
                                     }
+                                    }, [i("q-avatar", {
+                                    attrs: {
+                                        icon: "img:statics/icons/uber.jpeg",
+                                        size: "100px",
+                                        color: e.$q.dark.isActive ? "primary" : "",
+                                        "text-color": "white"
+                                    }
+                                })], 1), i("q-item-section", [i("q-item-label", {
+                                    staticClass: "text-warning text-bold text-h5"
+                                }, [e._v("Uber")]), i("q-item-label", {
+                                    staticClass: "text-bold text-accent text-h6"
+                                }, [e._v("Data Scientist I, Tech")]), i("q-item-label", {
+                                    staticClass: "text-bold",
+                                    attrs: {
+                                        caption: ""
+                                    }
+                                }, [e._v("Sep 2021 to Present")])], 1)]
+                            },
+                            proxy: !0
+                        }])
+                    }, [i("q-separator", {
+                        attrs: {
+                            dark: e.$q.dark.isActive
+                        }
+                    }), i("q-card", [i("q-card-section", {
+                        class: e.$q.dark.isActive ? "bg-primary" : "text-primary"
+                    }, [i("ul", [i("li", [e._v("Developing state-of-the-art FinTech systems in order to drive reporting and compliance processes, through advanced analytics & automation")]), i("i", [e._v("")])])])], 1)], 1), i("q-separator", {
+                        attrs: {
+                            spaced: "",
+                            dark: e.$q.dark.isActive
+                        }
+                    }), i("q-expansion-item", {
+                        class: e.$q.dark.isActive ? "bg-primary" : "",
+                        attrs: {
+                            "header-class": "list-item"
+                        },
+                        scopedSlots: e._u([{
+                            key: "header",
+                            fn: function() {
+                                return [i("q-item-section", {
+                                    attrs: {
+                                        avatar: ""
+                                    }
                                 }, [i("q-avatar", {
                                     attrs: {
                                         icon: "img:statics/icons/uber.jpeg",
@@ -37,12 +80,12 @@
                                     staticClass: "text-warning text-bold text-h5"
                                 }, [e._v("Uber")]), i("q-item-label", {
                                     staticClass: "text-bold text-accent text-h6"
-                                }, [e._v("Data Analyst-III")]), i("q-item-label", {
+                                }, [e._v("Business Analyst, INSA Rides Supply Growth")]), i("q-item-label", {
                                     staticClass: "text-bold",
                                     attrs: {
                                         caption: ""
                                     }
-                                }, [e._v("Sep 2020 to Present")])], 1)]
+                                }, [e._v("Sep 2020 to Sep 2021")])], 1)]
                             },
                             proxy: !0
                         }])
@@ -52,7 +95,8 @@
                         }
                     }), i("q-card", [i("q-card-section", {
                         class: e.$q.dark.isActive ? "bg-primary" : "text-primary"
-                    }, [i("ul", [i("li", [e._v("Developed an internal SQL training tool using Python for practising the structure of Databases")]), i("li", [e._v("Using Text Mining & NLP techniques to classify Driver Reviews, in order to cater supply in Business")])])])], 1)], 1), i("q-separator", {
+                    }, [i("ul", [i("li", [i("a", {
+                    }, [e._v("Built an internal SQL training tool using Flask, used for onboarding new joiners.")])]), i("li", [e._v("Used Text Mining & NLP techniques to classify Earners' survey responses, saving manual scrubbing of 10 agents per month & savings worth 20K USD monthly.")]), i("li", [e._v("Automated Earners' Background Check process in ANZ markets, utilizing government's API, having a direct impact on supply by +200% & slashing manual docs processing costs worth 120K USD quarterly.")]), i("li", [e._v("Built an automated JIRA data scrapping & reporting tool, used across verticals, saving manual interventions worth 5 hrs a week.")]), i("li", [e._v("Automated generating Monthly Business Reviews' PPTs using Google Slides API in Python & user-friendly GUI.")]), i("", [e._v("")])])])], 1)], 1), i("q-separator", {
                         attrs: {
                             spaced: "",
                             dark: e.$q.dark.isActive
@@ -413,7 +457,7 @@
                                     attrs: {
                                         caption: ""
                                     }
-                                }, [e._v("Sep 2013 – Dec 2013")])], 1)]
+                                }, [e._v("Sep 2016 – Apr 2020")])], 1)]
                             },
                             proxy: !0
                         }])
